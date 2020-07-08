@@ -18,6 +18,14 @@ abstract class Animal {
         return this.name + " ate food!";
     };
 
+    public int getYear(){
+        return year;
+    }
+
+    public String getName(){
+        return name;
+    }
+
     abstract String move();
     abstract String breathe();
     abstract String reproduce();
